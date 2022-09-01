@@ -1,0 +1,151 @@
+body{
+    background-image: linear-gradient(to right, #22c1c3 , #fdbb2d);
+}
+
+html{
+    background-color: black !important;
+}
+
+.navbar{
+    background-color: rgb(8, 26, 32);
+}
+
+.navbar-nav .nav-item .nav-link:link {
+    color:white;
+    
+}
+
+.navbar-nav .nav-item .nav-link:hover {
+    color:rgb(255, 81, 0);
+    font-weight: 600;
+           
+}
+
+
+
+.table-estilo{
+    background-color: rgb(8, 26, 32);
+    color:rgb(255, 255, 255);
+    
+}
+
+
+
+.btn-outline-info{
+    border-color: rgb(255, 81, 0);
+    color:rgb(255, 81, 0);
+}
+
+.btn-outline-info:hover{
+    background: rgb(255, 81, 0);
+    border-color:rgb(255, 81, 0);
+    color:white;
+}
+
+.btn-outline-danger{
+    border-color: rgb(8, 26, 32);
+    color:rgb(8, 26, 32);
+}
+
+.btn-outline-danger:hover{
+    background: rgb(8, 26, 32);
+    border-color:rgb(8, 26, 32);
+    color: white;
+
+}
+
+.btn-salvar-estilo{
+    background-color: rgb(8, 26, 32);
+    color: rgb(255, 81, 0);
+}
+
+.btn-salvar-estilo:hover{
+    color:white;
+}
+
+
+.status_task_pend{
+    background-color: rgb(233, 235, 148);
+    border-radius: 10px;
+    font-size: 11px;
+    padding:2px;
+}
+
+.status_task_done{
+    background-color: rgb(169, 245, 126);
+    border-radius: 10px;   
+    font-size: 11px;
+    padding:2px;
+}
+
+.icone_check{
+    color:rgb(36, 141, 50);
+}
+
+.icone_uncheck{
+    color:rgb(233, 235, 148);
+}
+
+
+
+
+
+
+
+@media (max-width: 575.98px) { 
+    .minha_tabela{
+        display: block;
+    }
+
+    .minha_tabela_linhas{
+        margin-bottom: 60px;
+        margin-top:10px;
+    }
+
+    i{
+        margin-right: 20px;
+        margin-left: 20px;
+    }
+
+    .minha_tabela_acoes{
+        display: none;
+    }
+
+    .btn-outline-info, .btn-outline-danger{
+        margin-bottom: 7px;
+        
+    }
+
+    .especifico_icone{
+        margin-left: 30px;
+    }
+}
+
+
+@media (min-width: 576px) and (max-width: 767.98px) { 
+    .minha_tabela{
+        display: block;
+    }
+
+    .minha_tabela_linhas{
+        margin-bottom: 25px;
+    }
+
+    .minha_tabela_acoes{
+        display: none;
+    }
+
+    
+}
+
+
+@media (min-width: 768px) and (max-width: 991.98px) {  }
+
+@media (min-width: 992px) and (max-width: 1199.98px) {  }
+
+@media (min-width: 1200px) { 
+    .container-fluid{
+        
+        max-width: 1300px;
+    }
+}
